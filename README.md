@@ -5,6 +5,8 @@
 
 Este es un repositorio con la intención de que quede constancia del trabajo realizado en la asignatura de DWES.
 
+### [Practica Tema 1](Practica_P1/README.md)
+
 ### JavaScript Folder (js/)
 * bigger_three_numbers.js
 * bill.js
