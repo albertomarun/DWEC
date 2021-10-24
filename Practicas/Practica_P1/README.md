@@ -1,30 +1,3 @@
-# Desarrollo Web Entorno Cliente - DAW (MEDAC).
-## Alberto Jose Marun Indriago.
-
-[Pagina Web del Repositorio.](https://albertojmarun.github.io/DWEC/)
-
-Este es un repositorio con la intención de que quede constancia del trabajo realizado en la asignatura de DWES.
-
-## Practicas de Clase
-
-[- Practica 1](#practica-1)
-
-### JavaScript Folder (js/)
-* bigger_three_numbers.js
-* bill.js
-* compare_numbers.js
-* drive_validation.js
-* ejercicio_arrays.js
-* holamundo.js
-* odd_even_number.js
-* order_array_of_numbers.js
-* prime_number.js
-* quotation_marks.js
-* square_and_cubic.js
-* variables.js
-
-## Practicas de Clase:
-
 ***
 # Practica 1
 ## 1. Ataque DoS y DDos. Información sobre cada uno de estos conceptos y un detallar un ejemplo destacado sobre cada uno de estos.
