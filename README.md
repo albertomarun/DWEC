@@ -121,7 +121,6 @@ Fue suplantado por el Cifrado AES que es un algoritmo criptográfico más elegan
 Además, DES se ha dejado de usar ya que su implementación en software es poco eficiente.<sup>5</sup>
 <br><br>
 <img src="https://1.bp.blogspot.com/-OMuBT4m24XA/WLKoUpoL4vI/AAAAAAAAHzE/fLhIYMPPqE8DgdwUzGQBrTdVJuDpQOh5QCLcB/s1600/Cifrado%2BDES_18.png" alt="Explicacion Algoritmo DES">
-<br>
 Criptografía, Explicación Algoritmo DES.<sup>6</sup>
 <br>
 ***
