@@ -83,7 +83,6 @@ De todas las propuestas, destacaron dos: __CHSS__(Cascading HTML Style Sheets) y
 A eso de 1995, el W3C añadió CSS al grupo de trabajo de HTML apostando así por su desarrollo y estandarización del lenguaje y en 1996 se publicó la primera recomendación oficial __"CSS1"__
 
 En 1998, luego de que se separara el grupo de trabajo HTML en HTML, CSS y DOM, CSS presenta su segunda versión: __"CSS2"__<sup>5</sup>
-
 <br><br>
 
 ### Curiosidades.
@@ -93,7 +92,6 @@ En 1998, luego de que se separara el grupo de trabajo HTML en HTML, CSS y DOM, C
 4. El navegador lee los selectores de derecha a izquierda (Como los lenguajes arábicos).
 5. Hay propiedades que tienen mayor peso en nuestra web que otras.
 6. Si se aplican dos estilos, el último declarado (el que este al final) será el que se aplicará.<sup>6</sup>
-
 <br><br>
 
 ### Características Principales.
@@ -147,28 +145,71 @@ Actualmente se usa también en el Entorno del Servidor, bases de datos como Mong
 
 ## 4. ¿Qué son WebKit y Blink?
 ### WebKit
+Es un motor de navegación web de código abierto, además de ser un framework de MacOsX, usado para construir aplicaciones como Safari, Dashboard, Mail...
+
+Al denominarlo framework se entiende como un programa mediante el cuál se facilita el desarrollo de otros programas. WebKit facilita la creación de aplicaciones que tienen funcionalidades como las que se puede encontrar en Safari.<sup>11</sup>
 <br><br>
 
 ### Blink
+Es un motor de renderizado para navegadores de código abierto desarrollado por Google, que forma parte Chromium. Siendo una copia de la librería WebCore de WebKit, encargada del diseño renderizado y del DOM.<sup>12</sup>
 <br><br>
 
 ***
+
 ## 5. WebKit. Historia, curiosidades, características principales e información básica sobre este.
 ### Historia.
-<br><br>
+WebKit se creo haciendo referencia de librerías de KDE (KHTML para interpretar HTML y KJS para interpretar KJS).
+Luego de unirse, en 2005 se liberó el software como Open Source.
+
+Con el paso del tiempo, el abanico de software con el que han operado se ha extendido a RSS, Depuradores, Herramientas de Desarrollo, Editores de Texto, Navegadores Web...<sup>11</sup>
 
 ### Curiosidades.
+* Es tanto un framework como un motor renderizado de HTML.
+* Es usado por distintas aplicaciones, con distintos propósitos.<sup>13</sup>
 <br><br>
 
 ### Características Principales.
+* Esta desarrollado en Objective-C.
+* Es posible interactuar con un servidor web para recuperar y renderizar páginas web, descargar archivos y administrar plugins.
+* Incluye frameworks de bajo nivel como: "WebCore y JavaScriptCore".
+* Incluye un depurador JavaScript denominado Drosera.
 <br><br>
 
 ### Información Básica.
+Instalar WebKit MacOS
+~~~~
+git clone https://github.com/WebKit/WebKit.git WebKit
+~~~~
+
+Instalar WebKit Windows
+~~~
+git clone <git://git.webkit.org/WebKit.git>
+~~~
+
+Build WebKit
+~~~
+build-webkit --debug
+~~~
+
+Para correr WebKit, usar cualquiera de los comandos:
+~~~
+$run-safari
+$run-webkit-app
+run-safari --ios-simulator
+~~~
+<sup></sup>
 <br><br>
 
 ***
-## 6. Ejemplos de navegadores web que usen WebKit, Blink y otro similar que encuentren.
 
+## 6. Ejemplos de navegadores web que usen WebKit, Blink y otro similar que encuentren.
+|Motor|Navegadores|
+|--|--|
+|WebKit| Dolphin Browser, Firefox (iOS), Microsoft Edge (iOS), Midori, GNOME (Web), Safari|<sup></sup>
+|Blink| Chromium, Chrome, Opera, Brave, Vivaldi, Maxthon, MicrosoftEdge|<sup></sup>
+|Gecko| Camino (MacOsX), Epiphany (GNOME), Firefox, Waterfox, Flock, Fennec, Minimo.|<sup></sup>
+
+<sup>15</sup>
 
 ***
 # Referencias
@@ -182,10 +223,11 @@ Actualmente se usa también en el Entorno del Servidor, bases de datos como Mong
 8. [Robledano, Á. (2021, 23 agosto). Qué es Javascript. OpenWebinars.net. Recuperado 26 de octubre de 2021.](https://openwebinars.net/blog/que-es-javascript/#:%7E:text=JavaScript%20se%20introdujo%20en%201995,en%20el%20navegador%20Netscape%20Navigator.&text=Con%20unas%20aplicaciones%20web%20cada,en%20el%20navegador%20del%20usuario)
 9. [Sánchez, C. (2011, 8 junio). 10 Curiosidades sobre Javascript. Creativos Online. Recuperado 26 de octubre de 2021.](https://www.creativosonline.org/10-curiosidades-sobre-javascript.html)
 10. [E. (2021, 1 octubre). ¿Qué es Javascript? Características y Librerías. everis school. Recuperado 26 de octubre de 2021.](https://www.everisschool.com/blog/que-es-javascript-caracteristicas-librerias/)
-11. []()
-12. []()
-13. []()
-14. []()
+11. [Qué es Webkit. (2008, 15 julio). Desarrollo Web. Recuperado 26 de octubre de 2021.](https://desarrolloweb.com/articulos/que-es-webkit.html)
+12. [Blink - Glosario | MDN. (2021, 25 octubre). MDN Web Docs. Recuperado 26 de octubre de 2021.](https://developer.mozilla.org/es/docs/Glossary/Blink)
+13. [EcuRed. (s. f.). Webkit - EcuRed. Recuperado 26 de octubre de 2021.](https://www.ecured.cu/Webkit)
+14. [Getting Started. (2021, 19 octubre). WebKit. Recuperado 26 de octubre de 2021.](https://webkit.org/getting-started/)
+15. [The WebKit Open Source Project. (2020, 23 marzo). WebKit. Recuperado 26 de octubre de 2021, de https://webkit.org/project/](https://webkit.org/project/)
 
 ***
 ***
