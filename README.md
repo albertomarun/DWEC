@@ -7,6 +7,8 @@ Este es un repositorio con la intención de que quede constancia del trabajo rea
 ## 1. Practicas de Clase
 - [Practica 1](Practicas/P1/README.md)
 - [Practica 2](Practicas/P2/README.md)
+- [Practica 3](Practicas/P3/README.md)
+
 <br>
 
 ## 2. JavaScript Folder (js/)
