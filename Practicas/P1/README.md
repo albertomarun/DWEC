@@ -176,3 +176,5 @@ Son herramientas con la cuál se logran ejecutar comandos SHELL. Permitiendo as�
 ***
 ***
 [Volver Arriba](#practica-1)
+
+[Volver a la Página Principal](../../)
