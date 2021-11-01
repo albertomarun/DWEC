@@ -8,6 +8,7 @@ Este es un repositorio con la intención de que quede constancia del trabajo rea
 - [Practica 1](Practicas/P1/README.md)
 - [Practica 2](Practicas/P2/README.md)
 - [Practica 3](Practicas/P3/README.md)
+- [Practica 4](Practicas/P4/README.md)
 
 <br>
 
