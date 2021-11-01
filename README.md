@@ -5,10 +5,10 @@ Este es un repositorio con la intención de que quede constancia del trabajo rea
 
 # Índice:
 ## 1. Practicas de Clase
-- [Practica 1](Practicas/P1/README.md)
-- [Practica 2](Practicas/P2/README.md)
-- [Practica 3](Practicas/P3/README.md)
-- [Practica 4](Practicas/P4/README.md)
+- [Practica 1](Practicas/P1/p1.md)
+- [Practica 2](Practicas/P2/p2.md)
+- [Practica 3](Practicas/P3/p3.md)
+- [Practica 4](Practicas/P4/p4.md)
 
 <br>
 
