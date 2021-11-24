@@ -9,6 +9,8 @@ Este es un repositorio con la intención de que quede constancia del trabajo rea
 - [Practica 2](Practicas/P2/p2.md)
 - [Practica 3](Practicas/P3/p3.md)
 - [Practica 4](Practicas/P4/p4.md)
+- [Practica 5 - README](Practicas/P5/p5.md)
+- [Practica 5 - Web](https://albertojmarun.github.io/DWEC/Practicas/P5/)
 
 <br>
 
