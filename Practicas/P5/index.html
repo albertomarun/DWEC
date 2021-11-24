@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="icon" type="image/x-icon" href="https://miguelangelsanz.blogia.com/upload/20191206063023-balon-de-oro-2019-logo.jpg">
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <title>Ballon D'OR</title>
+    </head>
+    <body class="container-fluid bg-secondary bg-opacity-45" onload="updateTable()">
+        <h1 class="text-center"> Nominados al Ballon D'OR</h1>
+        <p class="text-center"> A continuación añada sus nominados al premio del Ballon D'OR: </p>
+
+        <div class="d-flex justify-content-around">
+            <button type="button" class="btn btn-success" onclick="agregarPersona()">Añadir nueva persona</button>
+            <button type="button" class="btn btn-danger" onclick="eliminarPersona()">Eliminar ultimo registro</button>
+        </div>
+        <br>
+        <table id="table" class="table table-warning text-center"></table>
+
+        <script src="persona.js"></script>
+    </body>
+</html>
