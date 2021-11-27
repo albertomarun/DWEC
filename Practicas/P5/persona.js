@@ -103,13 +103,17 @@ function updateTable(){
 function agregarPersona(){
     do{
         var player_name = prompt("Ingresa el Nombre:");
-    }while(!player_name);
+    }while(!player_name.length);
 
     do{
         var player_lastName = prompt("Ingresa el Apellido:");
-    }while(!player_lastName);
+    }while(!player_lastName.length);
 
-    football_players.push(new Persona(player_name, player_lastName) );
+    if(player_name && player_lastName){
+        football_players.push(new Persona(player_name, player_lastName) );
+    } else{
+        alert("Has cancelado la introducción de un nuevo jugador.");
+    }
 
     updateTable();
 }
