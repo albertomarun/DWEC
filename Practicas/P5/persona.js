@@ -44,6 +44,14 @@ class Persona{
     getApellidos(){
         return this._apellidos;
     }
+
+    /**
+     * Get the full name of the Person.
+     * @returns the full name of the Person (String)
+     */
+    toString(){
+        return this.getNombre() + " " + this.getApellidos();
+    }
 }
 
 // Array of type Persona.
@@ -125,7 +133,7 @@ function eliminarPersona(){
     if(football_players.length == 0){
         alert("No hay personas para eliminar");
     } else{
-        football_players.pop();
+        (confirm("¿Seguro que deseas eliminar a " + football_players[football_players.length - 1].toString() + "?") ? football_players.pop() : alert("Has cancelado eliminar a " + football_players[football_players.length - 1].toString()));
     }
 
     updateTable();
